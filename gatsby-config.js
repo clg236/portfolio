@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `Christian Grewell`,
+    siteDescription:`Christian Grewell Personal Porfolio`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    author:`Christian Grewell`,
+    siteImage:``,
+    siteLanguage:`en`,
+    siteUrl: `https://christian.bio`,
+    siteHeadline: ``
   },
   plugins: [
     {
@@ -19,6 +26,10 @@ module.exports = {
             slug: `/teaching`,
           },
           {
+            title: `Projects`,
+            slug: `/projects`,
+          },
+          {
             title: `Writing`,
             slug: `/blog`,
           },
@@ -29,12 +40,8 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/christiangrewell/`,
           },
         ],
       },
