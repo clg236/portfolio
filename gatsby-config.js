@@ -15,11 +15,15 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `Teaching`,
+            slug: `/teaching`,
+          },
+          {
+            title: `Writing`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `Resume`,
             slug: `/about`,
           },
         ],
